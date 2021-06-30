@@ -1,0 +1,18 @@
+package main
+import "fmt"
+
+func main() {
+    var num int;
+    fmt.Print("Enter the total number of rows: ")
+    fmt.Scanf("%d", &num)
+    for row := 0; row < num; row++ {
+         for column := 0; column <= row; column++{
+            if(row%2==0){
+                fmt.Printf("%c",column+65)
+            }else{
+                fmt.Printf("%d",column+1)
+            }
+         }
+         fmt.Println("")
+    }   
+}
