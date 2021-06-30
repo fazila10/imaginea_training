@@ -1,0 +1,12 @@
+puts "Enter the number of rows"
+num = Integer(gets.chomp)
+for row in 0..num-1 do
+  for column in 0..row do
+    if row%2==0 then
+        printf "%c",column+65
+    else
+        print column+1
+    end
+  end
+  puts
+end
