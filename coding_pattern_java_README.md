@@ -1,5 +1,4 @@
 # imaginea_training
-# imaginea_training
 **problem**:
 n=5
 
