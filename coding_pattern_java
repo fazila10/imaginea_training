@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc = new Scanner(System.in);
+	    System.out.println("Enter the number of lines");
+	    int num= sc.nextInt();
+	    for(int row = 0;row<num;row++){
+	        for(int column = 0,print =1;column<=row;column++,print++){
+	            if(row%2==0){
+	               System.out.print((char)(print+64));
+	            }
+	            else{
+	                System.out.print(print);
+	            }
+	        }
+	        System.out.println();
+	    }
+	}
+}
